@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center_horizontal"
+    tools:context=".AnimationDemo">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/lpulogo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Blink"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounce" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/buttonin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade_in" />
+
+    <Button
+        android:id="@+id/buttonout"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade_out" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/buttonM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="move" />
+
+    <Button
+        android:id="@+id/buttonFlip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flip" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/buttonZi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoom_in" />
+
+    <Button
+        android:id="@+id/buttonZo"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoom_out" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonzr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoomAndRotate" />
+
+    <Button
+        android:id="@+id/buttonSeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sequential" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonSUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sUp" />
+        <Button
+        android:id="@+id/buttonSDn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sDown" />
+        <Button
+        android:id="@+id/buttonSLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sLeft" />
+        <Button
+        android:id="@+id/buttonSRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sRight" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonSideSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side_Slide" />
+
+</LinearLayout>
